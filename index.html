@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Yashwin Agrawal</title>
+        <link rel="stylesheet" href="style.css">
+        <!-- Add icon library -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <header class="header">
+            <div class="nav-bar">
+                <nav class="nav-items">
+                    <a class="active" href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#services">Services</a>
+                    <a href="#contact">Contact</a>
+                </nav>
+                <hr class="line"/>
+            </div>
+            <div class="container">
+                <div class="home-heading">
+                    <p class="greeting">Hi, I'm</p>
+                    <p class="name">Yashwin Agrawal</p>
+                </div>
+                <div class="home-img">
+                    <img class="image" src="./Yashwin.png" alt="Yashwin"/>
+                </div>
+            </div>
+            <!-- <div class="arrow">
+                <a href="https://www.facebook.com/yashwin.agrawal" class="fa fa-arrow-down" target="_blank"></a>
+            </div> -->
+        </header>
+
+        <section class="about section" id="about">
+            <div class="section-title">
+                <p class="title">About</p>
+                <hr class="line"/>
+            </div>
+            <div class="about-text">
+                <p class="text">
+                    I'm a software engineer by day and a free man by night.
+                    Technical interests include Frontend Web Development with a history of Android Application Development and a little bit of Unity Game development.
+                    <br><br>
+                    Non-fiction books interest me. Been dancing for more than a decade now.
+                    <br />
+                    P.S. - Not your average bathroom dancer.
+                </p>
+            </div>
+        </section>
+
+        <section class="projects section" id="projects">
+            <div class="section-title">
+                <p class="title">Projects</p>
+                <hr class="line"/>
+            </div>
+            <div class="slider">
+                <div class="slides">
+                    <div class="slide">
+                        <div class="image-container">
+                            <img class="image" src="https://play-lh.googleusercontent.com/82gJq0rWiRlXB04EpgzYWjjY-rKQSsDxaV-BkPDhDS8r4Qbfu7WWxYptMu5fNNFrX2U=w480-h960-rw" alt="BookPool">
+                        </div>
+                        <div class="text">
+                            <p class="heading">BookPool</p>
+                            <p class="desc">
+                                BookPool is an online platform for pooling of books, based on the principle of Barter or Order.
+                                The platform aims at becoming a universal platform for all your books requirement.
+                                <br /><br />
+                                For achieving the target, the platform has been equipped with features like Rent, Exchange, Donate, and Order for fulfilling your book requirement at a minimal cost.
+                                <br /><br />
+                                Tech: Java, Firebase
+                            </p>
+                            <a href="https://play.google.com/store/apps/details?id=com.bookpool.bookpool" class="fa fa-android" target="_blank"></a>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <div class="image-container">
+                            <img class="image" src="data:image/jpeg;base64,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" alt="NetflixGPT">
+                        </div>
+                        <div class="text">
+                            <p class="heading">NetflixGPT</p>
+                            <p class="desc">
+                                A Netflix web application with the added twist of AI.
+                                <br><br>
+                                In addition to displaying the movies, it provides personalized content recommendations
+                                using OpenAI's GPT-3.5 model. Get a more engaging streaming experience.
+                                <br /><br />
+                                Tech: React, JS, Redux, Tailwind, Firebase
+                            </p>
+                            <!-- <a href="" class="fa fa-globe" target="_blank"></a> -->
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <div class="image-container">
+                            <img class="image" src="https://play-lh.googleusercontent.com/ZNAtBubzxuasmd25hH3Nj6B1rf-igPYke9mhvaoflaACNVarQGy-OQ-Tys_ecUgoWw=w480-h960-rw" alt="">
+                        </div>
+                        <div class="text">
+                            <p class="heading">Good Vibes</p>
+                            <p class="desc">
+                                Good Vibes - Dose of Positivity, is an application designed to send positive and interesting 
+                                quotes and facts twice every day at a random time as notifications. 
+                                <br><br>
+                                An application to give that unexpected smile on your face and motivation that you have been lacking.
+                                <br /><br />
+                                Tech: Java, Firebase
+                            </p>
+                            <a href="https://play.google.com/store/apps/details?id=com.first.goodvibes" class="fa fa-android" target="_blank"></a>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <div class="image-container">
+                            <img class="image" src="./jivaka.png" alt="">
+                        </div>
+                        <div class="text">
+                            <p class="heading">Jivaka</p>
+                            <p class="desc">
+                                Jivaka is a free health monitoring application to provide a holistic picture of the human body.
+                                An easily accessible, inexpensive, and easy-to-use solution. Patent pending.
+                                Features:
+                            </p>
+                            <ol>
+                                <li>Blood Pressure, SpO2, and Heart rate measurement</li>
+                                <li>Chart representation of data</li>
+                                <li>Data Storing</li>
+                            </ol>
+                            <p class="desc">
+                                Tech: Machine Learning, Java, Firebase
+                            </p>    
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <div class="image-container">
+                            <img class="image" src="https://play-lh.googleusercontent.com/NlEkJ-w-6XH503zLtCLlyAxz_iHigS1UU-NH0bMMBa9WUanLSynP94Yp5JV44sEgsJU=w480-h960-rw" alt="">
+                        </div>
+                        <div class="text">
+                            <p class="heading">WashKaro</p>
+                            <p class="desc">
+                                WashKaro is a free Android-based app which aims to spread awareness among the mass regarding Tuberculosis. The app provides a plethora of features like:
+                            </p>
+                            <ol>
+                                <li>Human curated information</li>
+                                <li>Success Stories</li>
+                                <li>Multilingual text and speech support</li>
+                                <li>Chatbot</li>
+                            </ol>
+                            <p class="desc">
+                                Tech: Machine Learning, Java, Firebase
+                            </p>
+                            <a href="https://play.google.com/store/apps/details?id=inspire2connect.inspire2connect" class="fa fa-android" target="_blank"></a>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <div class="image-container">
+                            <img class="image" src="https://play-lh.googleusercontent.com/G2Cm4_It5JQVYNfY7qZYUN7c7f_pn4FwcYztvGAwAdSVQ5fWVwWBiJ0ErEIYMaITjWU=w480-h960-rw" alt="">
+                        </div>
+                        <div class="text">
+                            <p class="heading">Parrot</p>
+                            <p class="desc">
+                                Parrot is a picture based communication app for children with special needs.
+                                Children with Autism go through developmental delays which often impacts their ability to communicate.
+                                <br> <br>
+                                Hence Alternative and Augmentative Communication (AAC) apps are required to facilitate communication for these children.
+                                <br /><br />
+                                Tech: Java, Firebase
+                            </p>
+                            <a href="https://play.google.com/store/apps/details?id=com.hmilab.parrot" class="fa fa-android" target="_blank"></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="buttons">
+                    <button class="prev"><</button>
+                    <button class="next">></button>
+                </div>
+
+                <ul class="dots">
+                    <li class="active"></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </div>
+             </div>
+        </section>
+
+        <!-- <section class="blogs section">
+            <div class="section-title">
+                <p class="title">Blogs</p>
+                <hr class="line"/>
+            </div>
+        </section> -->
+
+        <section class="services section" id="services">
+            <div class="section-title">
+                <p class="title">Services</p>
+                <hr class="line"/>
+            </div>
+            <div class="service-cards">
+                <div class="card">
+                    <p class="heading">Android Application</p>
+                    <!-- <p class="desc">Description</p> -->
+                    <ul class="desc">
+                        <li>Frontend in Java</li>
+                        <li>Backend in Firebase</li>
+                        <li>From development to putting application on Google Play Store</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <p class="heading">Website</p>
+                    <!-- <p class="desc">Description</p> -->
+                    <ul class="desc">
+                        <li>Frontend in React, Javascript</li>
+                        <li>Backend in Node</li>
+                        <li>From development to website hosted on Firebase</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <p class="heading">Frontend Web Consultation</p>
+                    <!-- <p class="desc">Description</p> -->
+                    <ul class="desc">
+                        <li>Analyze website</li>
+                        <li>Find improvement areas</li>
+                        <li>SEO and performance enhancements</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer section" id="contact">
+            <div class="section-title">
+                <p class="title">Contact</p>
+                <hr class="line"/>
+            </div>
+            <div class="form-section">
+                <p>In case of any queries, fill the form</p>
+                <form class="form" onsubmit="this.submit(); this.reset(); location.reload(); return false;">
+                    <input class="name" name="Name" type="text" required placeholder="Your name" autocomplete="off">
+                    <input class="email" name="Email" type="text" required placeholder="Your email" autocomplete="off">
+                    <textarea class="message" name="Message" rows="3" type="text" required placeholder="Your message" autocomplete="off"></textarea>
+                    <button class="submit">Submit</button>
+                </form>
+            </div>
+            <div class="line-box">
+                <hr class="line" />
+            </div>
+            <div class="social">
+                <!-- Add font awesome icons -->
+                <a href="https://www.facebook.com/yashwin.agrawal" class="fa fa-facebook" target="_blank"></a>
+                <a href="https://www.instagram.com/yashwin_1/" class="fa fa-instagram" target="_blank"></a>
+                <a href="https://github.com/yashwin1" class="fa fa-github" target="_blank"></a>
+            </div>
+        </footer>
+
+        <script src="./index.js"></script>
+
+    </body>
+</html>
