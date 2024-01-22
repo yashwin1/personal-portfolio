@@ -102,7 +102,6 @@
     font-weight: lighter;
 }
 
-
 .slider {
     width: 95%;
     height: 80%;
@@ -161,6 +160,29 @@
     font-size: 1.25rem;
     margin: 1.5rem 2.5rem;
     line-height: 1.5;
+}
+.slide .text .tech {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 1.5rem 2.5rem;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+.slide .text .tech p {
+    margin-top: 0.5rem;
+    margin-right: 0.5rem;
+    margin-left: 0;
+    padding: 0.5rem;
+    padding-left: 0;
+}
+.slide .text .tech .label {
+    margin-top: 0.5rem;
+    margin-right: 0.5rem;
+    margin-left: 0;
+    padding: 0.5rem;
+    border: 1px solid black;
+    border-radius: 10%;
 }
 
 .slide .text ol {
